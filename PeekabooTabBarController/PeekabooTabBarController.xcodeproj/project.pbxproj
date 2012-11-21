@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641BD0DD165586620067C516 /* tabBarBtnClose.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0D9165586620067C516 /* tabBarBtnClose.png */; };
+		641BD0DE165586620067C516 /* tabBarBtnClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0DA165586620067C516 /* tabBarBtnClose@2x.png */; };
+		641BD0DF165586620067C516 /* tabBarBtnOpen.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0DB165586620067C516 /* tabBarBtnOpen.png */; };
+		641BD0E0165586620067C516 /* tabBarBtnOpen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0DC165586620067C516 /* tabBarBtnOpen@2x.png */; };
+		641BD0E41655866E0067C516 /* tabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0E21655866E0067C516 /* tabBar.png */; };
+		641BD0E51655866E0067C516 /* tabBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 641BD0E31655866E0067C516 /* tabBar@2x.png */; };
+		64CE3FE5165570B5002F65F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE3FE4165570B5002F65F4 /* UIKit.framework */; };
+		64CE3FE7165570B5002F65F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE3FE6165570B5002F65F4 /* Foundation.framework */; };
+		64CE3FE9165570B5002F65F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64CE3FE8165570B5002F65F4 /* CoreGraphics.framework */; };
+		64CE3FEF165570B5002F65F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FED165570B5002F65F4 /* InfoPlist.strings */; };
+		64CE3FF1165570B5002F65F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE3FF0165570B5002F65F4 /* main.m */; };
+		64CE3FF5165570B5002F65F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CE3FF4165570B5002F65F4 /* AppDelegate.m */; };
+		64CE3FF7165570B5002F65F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FF6165570B5002F65F4 /* Default.png */; };
+		64CE3FF9165570B5002F65F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FF8165570B5002F65F4 /* Default@2x.png */; };
+		64CE3FFB165570B5002F65F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FFA165570B5002F65F4 /* Default-568h@2x.png */; };
+		64CE3FFE165570B5002F65F4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FFC165570B5002F65F4 /* MainStoryboard_iPhone.storyboard */; };
+		64CE4001165570B5002F65F4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CE3FFF165570B5002F65F4 /* MainStoryboard_iPad.storyboard */; };
+		64D34962165643D2005E7CC0 /* tabBarBtn1Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494A165643D2005E7CC0 /* tabBarBtn1Off.png */; };
+		64D34963165643D2005E7CC0 /* tabBarBtn1Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494B165643D2005E7CC0 /* tabBarBtn1Off@2x.png */; };
+		64D34964165643D2005E7CC0 /* tabBarBtn1On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494C165643D2005E7CC0 /* tabBarBtn1On.png */; };
+		64D34965165643D2005E7CC0 /* tabBarBtn1On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494D165643D2005E7CC0 /* tabBarBtn1On@2x.png */; };
+		64D34966165643D2005E7CC0 /* tabBarBtn2Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494E165643D2005E7CC0 /* tabBarBtn2Off.png */; };
+		64D34967165643D2005E7CC0 /* tabBarBtn2Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3494F165643D2005E7CC0 /* tabBarBtn2Off@2x.png */; };
+		64D34968165643D2005E7CC0 /* tabBarBtn2On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34950165643D2005E7CC0 /* tabBarBtn2On.png */; };
+		64D34969165643D2005E7CC0 /* tabBarBtn2On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34951165643D2005E7CC0 /* tabBarBtn2On@2x.png */; };
+		64D3496A165643D2005E7CC0 /* tabBarBtn3Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34952165643D2005E7CC0 /* tabBarBtn3Off.png */; };
+		64D3496B165643D2005E7CC0 /* tabBarBtn3Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34953165643D2005E7CC0 /* tabBarBtn3Off@2x.png */; };
+		64D3496C165643D2005E7CC0 /* tabBarBtn3On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34954165643D2005E7CC0 /* tabBarBtn3On.png */; };
+		64D3496D165643D2005E7CC0 /* tabBarBtn3On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34955165643D2005E7CC0 /* tabBarBtn3On@2x.png */; };
+		64D3496E165643D2005E7CC0 /* tabBarBtn4Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34956165643D2005E7CC0 /* tabBarBtn4Off.png */; };
+		64D3496F165643D2005E7CC0 /* tabBarBtn4Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34957165643D2005E7CC0 /* tabBarBtn4Off@2x.png */; };
+		64D34970165643D2005E7CC0 /* tabBarBtn4On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34958165643D2005E7CC0 /* tabBarBtn4On.png */; };
+		64D34971165643D2005E7CC0 /* tabBarBtn4On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34959165643D2005E7CC0 /* tabBarBtn4On@2x.png */; };
+		64D34972165643D2005E7CC0 /* tabBarBtn5Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495A165643D2005E7CC0 /* tabBarBtn5Off.png */; };
+		64D34973165643D2005E7CC0 /* tabBarBtn5Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495B165643D2005E7CC0 /* tabBarBtn5Off@2x.png */; };
+		64D34974165643D2005E7CC0 /* tabBarBtn5On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495C165643D2005E7CC0 /* tabBarBtn5On.png */; };
+		64D34975165643D2005E7CC0 /* tabBarBtn5On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495D165643D2005E7CC0 /* tabBarBtn5On@2x.png */; };
+		64D34976165643D2005E7CC0 /* tabBarBtn6Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495E165643D2005E7CC0 /* tabBarBtn6Off.png */; };
+		64D34977165643D2005E7CC0 /* tabBarBtn6Off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D3495F165643D2005E7CC0 /* tabBarBtn6Off@2x.png */; };
+		64D34978165643D2005E7CC0 /* tabBarBtn6On.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34960165643D2005E7CC0 /* tabBarBtn6On.png */; };
+		64D34979165643D2005E7CC0 /* tabBarBtn6On@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D34961165643D2005E7CC0 /* tabBarBtn6On@2x.png */; };
+		64D34986165654AD005E7CC0 /* PeekabooTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D34985165654AD005E7CC0 /* PeekabooTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		641BD0D9165586620067C516 /* tabBarBtnClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtnClose.png; sourceTree = "<group>"; };
+		641BD0DA165586620067C516 /* tabBarBtnClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtnClose@2x.png"; sourceTree = "<group>"; };
+		641BD0DB165586620067C516 /* tabBarBtnOpen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtnOpen.png; sourceTree = "<group>"; };
+		641BD0DC165586620067C516 /* tabBarBtnOpen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtnOpen@2x.png"; sourceTree = "<group>"; };
+		641BD0E21655866E0067C516 /* tabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar.png; sourceTree = "<group>"; };
+		641BD0E31655866E0067C516 /* tabBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar@2x.png"; sourceTree = "<group>"; };
+		64CE3FE0165570B5002F65F4 /* PeekabooTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeekabooTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CE3FE4165570B5002F65F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64CE3FE6165570B5002F65F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64CE3FE8165570B5002F65F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64CE3FEC165570B5002F65F4 /* PeekabooTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeekabooTabBarController-Info.plist"; sourceTree = "<group>"; };
+		64CE3FEE165570B5002F65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64CE3FF0165570B5002F65F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CE3FF2165570B5002F65F4 /* PeekabooTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeekabooTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		64CE3FF3165570B5002F65F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64CE3FF4165570B5002F65F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64CE3FF6165570B5002F65F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		64CE3FF8165570B5002F65F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		64CE3FFA165570B5002F65F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64CE3FFD165570B5002F65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		64CE4000165570B5002F65F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		64D3494A165643D2005E7CC0 /* tabBarBtn1Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn1Off.png; sourceTree = "<group>"; };
+		64D3494B165643D2005E7CC0 /* tabBarBtn1Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn1Off@2x.png"; sourceTree = "<group>"; };
+		64D3494C165643D2005E7CC0 /* tabBarBtn1On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn1On.png; sourceTree = "<group>"; };
+		64D3494D165643D2005E7CC0 /* tabBarBtn1On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn1On@2x.png"; sourceTree = "<group>"; };
+		64D3494E165643D2005E7CC0 /* tabBarBtn2Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn2Off.png; sourceTree = "<group>"; };
+		64D3494F165643D2005E7CC0 /* tabBarBtn2Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn2Off@2x.png"; sourceTree = "<group>"; };
+		64D34950165643D2005E7CC0 /* tabBarBtn2On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn2On.png; sourceTree = "<group>"; };
+		64D34951165643D2005E7CC0 /* tabBarBtn2On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn2On@2x.png"; sourceTree = "<group>"; };
+		64D34952165643D2005E7CC0 /* tabBarBtn3Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn3Off.png; sourceTree = "<group>"; };
+		64D34953165643D2005E7CC0 /* tabBarBtn3Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn3Off@2x.png"; sourceTree = "<group>"; };
+		64D34954165643D2005E7CC0 /* tabBarBtn3On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn3On.png; sourceTree = "<group>"; };
+		64D34955165643D2005E7CC0 /* tabBarBtn3On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn3On@2x.png"; sourceTree = "<group>"; };
+		64D34956165643D2005E7CC0 /* tabBarBtn4Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn4Off.png; sourceTree = "<group>"; };
+		64D34957165643D2005E7CC0 /* tabBarBtn4Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn4Off@2x.png"; sourceTree = "<group>"; };
+		64D34958165643D2005E7CC0 /* tabBarBtn4On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn4On.png; sourceTree = "<group>"; };
+		64D34959165643D2005E7CC0 /* tabBarBtn4On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn4On@2x.png"; sourceTree = "<group>"; };
+		64D3495A165643D2005E7CC0 /* tabBarBtn5Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn5Off.png; sourceTree = "<group>"; };
+		64D3495B165643D2005E7CC0 /* tabBarBtn5Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn5Off@2x.png"; sourceTree = "<group>"; };
+		64D3495C165643D2005E7CC0 /* tabBarBtn5On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn5On.png; sourceTree = "<group>"; };
+		64D3495D165643D2005E7CC0 /* tabBarBtn5On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn5On@2x.png"; sourceTree = "<group>"; };
+		64D3495E165643D2005E7CC0 /* tabBarBtn6Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn6Off.png; sourceTree = "<group>"; };
+		64D3495F165643D2005E7CC0 /* tabBarBtn6Off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn6Off@2x.png"; sourceTree = "<group>"; };
+		64D34960165643D2005E7CC0 /* tabBarBtn6On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBtn6On.png; sourceTree = "<group>"; };
+		64D34961165643D2005E7CC0 /* tabBarBtn6On@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBarBtn6On@2x.png"; sourceTree = "<group>"; };
+		64D34984165654AD005E7CC0 /* PeekabooTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PeekabooTabBarController.h; path = ../../PeekabooTabBarController.h; sourceTree = "<group>"; };
+		64D34985165654AD005E7CC0 /* PeekabooTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PeekabooTabBarController.m; path = ../../PeekabooTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CE3FDD165570B5002F65F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE3FE5165570B5002F65F4 /* UIKit.framework in Frameworks */,
+				64CE3FE7165570B5002F65F4 /* Foundation.framework in Frameworks */,
+				64CE3FE9165570B5002F65F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CE3FD5165570B5002F65F4 = {
+			isa = PBXGroup;
+			children = (
+				64CE3FEA165570B5002F65F4 /* PeekabooTabBarController */,
+				64CE3FE3165570B5002F65F4 /* Frameworks */,
+				64CE3FE1165570B5002F65F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64CE3FE1165570B5002F65F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CE3FE0165570B5002F65F4 /* PeekabooTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CE3FE3165570B5002F65F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64CE3FE4165570B5002F65F4 /* UIKit.framework */,
+				64CE3FE6165570B5002F65F4 /* Foundation.framework */,
+				64CE3FE8165570B5002F65F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64CE3FEA165570B5002F65F4 /* PeekabooTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				64CE3FF3165570B5002F65F4 /* AppDelegate.h */,
+				64CE3FF4165570B5002F65F4 /* AppDelegate.m */,
+				64D34984165654AD005E7CC0 /* PeekabooTabBarController.h */,
+				64D34985165654AD005E7CC0 /* PeekabooTabBarController.m */,
+				64CE3FFC165570B5002F65F4 /* MainStoryboard_iPhone.storyboard */,
+				64CE3FFF165570B5002F65F4 /* MainStoryboard_iPad.storyboard */,
+				64CE3FEB165570B5002F65F4 /* Supporting Files */,
+			);
+			path = PeekabooTabBarController;
+			sourceTree = "<group>";
+		};
+		64CE3FEB165570B5002F65F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D3497B165643D8005E7CC0 /* Tab Bar Buttons */,
+				641BD0E21655866E0067C516 /* tabBar.png */,
+				641BD0E31655866E0067C516 /* tabBar@2x.png */,
+				641BD0D9165586620067C516 /* tabBarBtnClose.png */,
+				641BD0DA165586620067C516 /* tabBarBtnClose@2x.png */,
+				641BD0DB165586620067C516 /* tabBarBtnOpen.png */,
+				641BD0DC165586620067C516 /* tabBarBtnOpen@2x.png */,
+				64CE3FEC165570B5002F65F4 /* PeekabooTabBarController-Info.plist */,
+				64CE3FED165570B5002F65F4 /* InfoPlist.strings */,
+				64CE3FF0165570B5002F65F4 /* main.m */,
+				64CE3FF2165570B5002F65F4 /* PeekabooTabBarController-Prefix.pch */,
+				64CE3FF6165570B5002F65F4 /* Default.png */,
+				64CE3FF8165570B5002F65F4 /* Default@2x.png */,
+				64CE3FFA165570B5002F65F4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D3497B165643D8005E7CC0 /* Tab Bar Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				64D3494A165643D2005E7CC0 /* tabBarBtn1Off.png */,
+				64D3494B165643D2005E7CC0 /* tabBarBtn1Off@2x.png */,
+				64D3494C165643D2005E7CC0 /* tabBarBtn1On.png */,
+				64D3494D165643D2005E7CC0 /* tabBarBtn1On@2x.png */,
+				64D3494E165643D2005E7CC0 /* tabBarBtn2Off.png */,
+				64D3494F165643D2005E7CC0 /* tabBarBtn2Off@2x.png */,
+				64D34950165643D2005E7CC0 /* tabBarBtn2On.png */,
+				64D34951165643D2005E7CC0 /* tabBarBtn2On@2x.png */,
+				64D34952165643D2005E7CC0 /* tabBarBtn3Off.png */,
+				64D34953165643D2005E7CC0 /* tabBarBtn3Off@2x.png */,
+				64D34954165643D2005E7CC0 /* tabBarBtn3On.png */,
+				64D34955165643D2005E7CC0 /* tabBarBtn3On@2x.png */,
+				64D34956165643D2005E7CC0 /* tabBarBtn4Off.png */,
+				64D34957165643D2005E7CC0 /* tabBarBtn4Off@2x.png */,
+				64D34958165643D2005E7CC0 /* tabBarBtn4On.png */,
+				64D34959165643D2005E7CC0 /* tabBarBtn4On@2x.png */,
+				64D3495A165643D2005E7CC0 /* tabBarBtn5Off.png */,
+				64D3495B165643D2005E7CC0 /* tabBarBtn5Off@2x.png */,
+				64D3495C165643D2005E7CC0 /* tabBarBtn5On.png */,
+				64D3495D165643D2005E7CC0 /* tabBarBtn5On@2x.png */,
+				64D3495E165643D2005E7CC0 /* tabBarBtn6Off.png */,
+				64D3495F165643D2005E7CC0 /* tabBarBtn6Off@2x.png */,
+				64D34960165643D2005E7CC0 /* tabBarBtn6On.png */,
+				64D34961165643D2005E7CC0 /* tabBarBtn6On@2x.png */,
+			);
+			name = "Tab Bar Buttons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CE3FDF165570B5002F65F4 /* PeekabooTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CE4012165570B6002F65F4 /* Build configuration list for PBXNativeTarget "PeekabooTabBarController" */;
+			buildPhases = (
+				64CE3FDC165570B5002F65F4 /* Sources */,
+				64CE3FDD165570B5002F65F4 /* Frameworks */,
+				64CE3FDE165570B5002F65F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeekabooTabBarController;
+			productName = PeekabooTabBarController;
+			productReference = 64CE3FE0165570B5002F65F4 /* PeekabooTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CE3FD7165570B5002F65F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = edrackham.com;
+			};
+			buildConfigurationList = 64CE3FDA165570B5002F65F4 /* Build configuration list for PBXProject "PeekabooTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64CE3FD5165570B5002F65F4;
+			productRefGroup = 64CE3FE1165570B5002F65F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CE3FDF165570B5002F65F4 /* PeekabooTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CE3FDE165570B5002F65F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE3FEF165570B5002F65F4 /* InfoPlist.strings in Resources */,
+				64CE3FF7165570B5002F65F4 /* Default.png in Resources */,
+				64CE3FF9165570B5002F65F4 /* Default@2x.png in Resources */,
+				64CE3FFB165570B5002F65F4 /* Default-568h@2x.png in Resources */,
+				64CE3FFE165570B5002F65F4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				64CE4001165570B5002F65F4 /* MainStoryboard_iPad.storyboard in Resources */,
+				641BD0DD165586620067C516 /* tabBarBtnClose.png in Resources */,
+				641BD0DE165586620067C516 /* tabBarBtnClose@2x.png in Resources */,
+				641BD0DF165586620067C516 /* tabBarBtnOpen.png in Resources */,
+				641BD0E0165586620067C516 /* tabBarBtnOpen@2x.png in Resources */,
+				641BD0E41655866E0067C516 /* tabBar.png in Resources */,
+				641BD0E51655866E0067C516 /* tabBar@2x.png in Resources */,
+				64D34962165643D2005E7CC0 /* tabBarBtn1Off.png in Resources */,
+				64D34963165643D2005E7CC0 /* tabBarBtn1Off@2x.png in Resources */,
+				64D34964165643D2005E7CC0 /* tabBarBtn1On.png in Resources */,
+				64D34965165643D2005E7CC0 /* tabBarBtn1On@2x.png in Resources */,
+				64D34966165643D2005E7CC0 /* tabBarBtn2Off.png in Resources */,
+				64D34967165643D2005E7CC0 /* tabBarBtn2Off@2x.png in Resources */,
+				64D34968165643D2005E7CC0 /* tabBarBtn2On.png in Resources */,
+				64D34969165643D2005E7CC0 /* tabBarBtn2On@2x.png in Resources */,
+				64D3496A165643D2005E7CC0 /* tabBarBtn3Off.png in Resources */,
+				64D3496B165643D2005E7CC0 /* tabBarBtn3Off@2x.png in Resources */,
+				64D3496C165643D2005E7CC0 /* tabBarBtn3On.png in Resources */,
+				64D3496D165643D2005E7CC0 /* tabBarBtn3On@2x.png in Resources */,
+				64D3496E165643D2005E7CC0 /* tabBarBtn4Off.png in Resources */,
+				64D3496F165643D2005E7CC0 /* tabBarBtn4Off@2x.png in Resources */,
+				64D34970165643D2005E7CC0 /* tabBarBtn4On.png in Resources */,
+				64D34971165643D2005E7CC0 /* tabBarBtn4On@2x.png in Resources */,
+				64D34972165643D2005E7CC0 /* tabBarBtn5Off.png in Resources */,
+				64D34973165643D2005E7CC0 /* tabBarBtn5Off@2x.png in Resources */,
+				64D34974165643D2005E7CC0 /* tabBarBtn5On.png in Resources */,
+				64D34975165643D2005E7CC0 /* tabBarBtn5On@2x.png in Resources */,
+				64D34976165643D2005E7CC0 /* tabBarBtn6Off.png in Resources */,
+				64D34977165643D2005E7CC0 /* tabBarBtn6Off@2x.png in Resources */,
+				64D34978165643D2005E7CC0 /* tabBarBtn6On.png in Resources */,
+				64D34979165643D2005E7CC0 /* tabBarBtn6On@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CE3FDC165570B5002F65F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CE3FF1165570B5002F65F4 /* main.m in Sources */,
+				64CE3FF5165570B5002F65F4 /* AppDelegate.m in Sources */,
+				64D34986165654AD005E7CC0 /* PeekabooTabBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64CE3FED165570B5002F65F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE3FEE165570B5002F65F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64CE3FFC165570B5002F65F4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE3FFD165570B5002F65F4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		64CE3FFF165570B5002F65F4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CE4000165570B5002F65F4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CE4010165570B6002F65F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CE4011165570B6002F65F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CE4013165570B6002F65F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeekabooTabBarController/PeekabooTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "PeekabooTabBarController/PeekabooTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64CE4014165570B6002F65F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeekabooTabBarController/PeekabooTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "PeekabooTabBarController/PeekabooTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CE3FDA165570B5002F65F4 /* Build configuration list for PBXProject "PeekabooTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE4010165570B6002F65F4 /* Debug */,
+				64CE4011165570B6002F65F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CE4012165570B6002F65F4 /* Build configuration list for PBXNativeTarget "PeekabooTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CE4013165570B6002F65F4 /* Debug */,
+				64CE4014165570B6002F65F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CE3FD7165570B5002F65F4 /* Project object */;
+}
