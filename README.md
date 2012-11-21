@@ -35,7 +35,7 @@ The amount of the tab bar you want to still show when the tab bar is closed
 How far to "over bounce" when the tab bar opens.
 
     NSString *const TAB_BAR_BUTTON_IMAGES[] = {@"tabBarBtn1", @"tabBarBtn2", @"tabBarBtn3", @"tabBarBtn4", @"tabBarBtn5", @"tabBarBtn6"};
-Array of the tab bar images. Here, we're just using the base name (anything before the "On" or "Off"). "On" images must be named as *filename***On.png** and off images named as *filename***Off.png**.
+Array of the tab bar images. Here, we're just using the base name (anything before the "On" or "Off"). "On" images must be named as *filename*On.png and off images named as *filename*Off.png.
 
 ### To-Do
 
